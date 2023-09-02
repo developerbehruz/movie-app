@@ -1,0 +1,36 @@
+.container .main-row {
+    box-shadow: 15px 15px 30px rgba(0,0,0,.15);
+    background: #fcfaf5;
+    padding: 2rem;
+    margin: 2rem;
+}
+form input {
+    height: 70px;
+}
+form input::placeholder {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+form .searchBtn {
+    width: 150px;
+}
+.movies-list-item {
+    background: #fff;
+    padding: 20px 50px;
+    border-bottom: 1px solid #444;
+}
+.movies-list-item {
+    cursor: pointer;
+}
+.movies-list-item.viewed {
+    color: #ffcc00;
+}
+.movies-list-item.remove {
+    display: none;
+}
+.like {
+    display: none !important;
+}
+.movies-list-item.likeD .like {
+    display: inline !important;
+}
